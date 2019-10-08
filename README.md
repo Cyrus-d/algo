@@ -1,4 +1,6 @@
 
+```bash
+
 sudo apt-get update && sudo apt-get install \
     build-essential \
     libssl-dev \
@@ -19,6 +21,7 @@ python -m virtualenv --python=`which python2` env &&
 
 ./algo
 
+ ```
 
 # Algo VPN
 
