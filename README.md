@@ -9,6 +9,8 @@ sudo apt-get update && sudo apt-get install \
     python-pip \
     python-setuptools \
     python-virtualenv -y
+    
+sudo apt-get install zip
 
 git clone --single-branch --branch windows https://github.com/Cyrus-d/algo.git
 
@@ -20,6 +22,10 @@ python -m virtualenv --python=`which python2` env &&
     python -m pip install -r requirements.txt
 
 ./algo
+
+zip -r configs.zip configs
+
+download => /home/usename/algo/configs.zip
 
  ```
 
