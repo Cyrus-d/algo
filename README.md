@@ -8,10 +8,9 @@ sudo apt-get update && sudo apt-get install \
     python-dev \
     python-pip \
     python-setuptools \
+    zip \
     python-virtualenv -y
     
-sudo apt-get install zip
-
 git clone --single-branch --branch windows https://github.com/Cyrus-d/algo.git
 
 cd algo
